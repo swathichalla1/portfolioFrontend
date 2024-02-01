@@ -25,7 +25,7 @@ const ContactMe = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     alert('Message sent successfully!');
-    let result = await fetch('http://localhost:4001/',{
+    let result = await fetch('https://portfoliobackend-i24x.onrender.com/',{
             method:'post',
             body:JSON.stringify({name,email,number,message}),
             headers:{
