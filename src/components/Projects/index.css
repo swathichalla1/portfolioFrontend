@@ -1,0 +1,60 @@
+.projectContainer{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:rgb(224, 79, 79);
+    color:white;
+    width:100%;
+    padding:10px;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border:2px dotted brown;
+    margin:10px;
+    min-width:30%;
+    padding:10px;
+    border-radius:10px;
+}
+.showProject{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:wrap;
+    max-width:90%;
+    margin:20px;
+}
+.projectsPara{
+    font-size:30px;
+    margin-top:10px;
+}
+.projectsHeading{
+    font-size:40px;
+    margin-top:5px;
+    color:cornsilk;
+}
+.projectImage{
+    height:200px;
+    width:200px;
+    margin:10px;
+}
+.buttons{
+    display:flex;
+    flex-direction:row;
+}
+.eachButton{
+    margin:10px;
+    background-color:antiquewhite;
+    color:brown;
+    border-radius:10px;
+    padding:10px;
+    border:2px solid brown;
+    width:6rem;
+}
+
+.eachButton:hover{
+    background-color:darksalmon;
+    color:white;
+    border:2px solid brown;
+}

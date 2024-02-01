@@ -1,0 +1,82 @@
+.profileImage{
+    height:350px;
+    width:350px;
+    border-radius:50%;
+}
+.profileDesktopContainer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    font-family: "Poppins", sans-serif;
+    height:80vh;
+    background-color:rgb(224, 79, 79);
+    color:white;
+    padding:10px;
+    padding-top:100px;
+    width:100%;
+}
+.Name{
+    font-weight:700;
+    font-size:30px;
+    color:white;
+}
+.HelloText{
+    font-size:30px;
+    text-align:center;
+    font-family: "Poppins", sans-serif;
+}
+.details{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.cvButton{
+    background-color:white;
+    border:3px solid brown;
+    color:rgb(224, 79, 79);
+    border-radius:10px;
+    padding:10px;
+    font-weight:700;
+}
+
+.cvButton:hover{
+    background-color:bisque;
+    border:3px solid brown;
+    color:brown;
+}
+
+.contactDetails{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+
+}
+
+.icon{
+    font-size:40px;
+}
+.Aicon{
+    margin:10px;
+    color:white;
+}
+.icon:hover{
+    color:brown;
+    background-color:bisque;
+}
+/*Small devices*/
+
+@media screen and (max-width:600px){
+    .profileDesktopContainer{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-evenly;
+width:100%;
+padding-top:150px;}
+    .profileImage{
+        height:300px;
+        width:300px;
+        border-radius:50%;
+    }
+
+}
